@@ -1,6 +1,6 @@
 let BASE_URL;
 if (process.env.NODE_ENV === 'production'){
-  BASE_URL = 'https://edusource-api.herokuapp.com/resources'
+  BASE_URL = 'https://edushare-api.herokuapp.com/resources'
 } else {
   BASE_URL = 'http://localhost:3000/resources'
 }

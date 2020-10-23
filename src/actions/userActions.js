@@ -2,7 +2,7 @@ import * as Cookies from "js-cookie"
 
 let BASE_URL;
 if (process.env.NODE_ENV === 'production'){
-  BASE_URL = 'https://edusource-api.herokuapp.com'
+  BASE_URL = 'https://edushare-api.herokuapp.com'
 } else {
   BASE_URL = 'http://localhost:3000'
 }
